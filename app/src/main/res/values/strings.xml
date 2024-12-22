@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">My Application water</string>
+    <string name="calcul">Calculer la quantité deau</string>
+    <string name="poids">Entrez votre poids (kg)</string>
+
+</resources>

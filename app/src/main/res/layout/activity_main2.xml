@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@color/white"
+    android:gravity="center_horizontal">
+
+    <!-- Champ pour entrer le poids -->
+    <EditText
+        android:id="@+id/saisiePoids"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Entrez votre poids (kg)"
+        android:inputType="numberDecimal"
+        android:padding="10dp"
+        android:layout_marginBottom="36dp"
+        android:minHeight="48dp"
+        android:background="@android:color/white" />
+
+    <!-- Bouton pour calculer -->
+    <Button
+        android:id="@+id/boutonCalculer"
+        android:layout_width="228dp"
+        android:layout_height="74dp"
+        android:layout_marginBottom="112dp"
+        android:backgroundTint="@color/blue"
+        android:text="@string/calcul"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp" />
+    <Button
+        android:id="@+id/boutonajouteau"
+        android:layout_width="228dp"
+        android:layout_height="74dp"
+        android:backgroundTint="@color/blue"
+        android:text="enregister la quantite d'eau"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp" />
+
+    <!-- Résultat affiché -->
+    <TextView
+        android:id="@+id/texteResultat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="56dp"
+        android:text="Quantité d'eau : 0 ml"
+        android:textColor="#000000"
+        android:textSize="18sp"
+        android:gravity="center" />
+
+
+    <!-- Image d'illustration -->
+    <ImageView
+        android:id="@+id/imageEau"
+        android:layout_width="400dp"
+        android:layout_height="279dp"
+        android:src="@drawable/water3" />
+
+
+</LinearLayout>

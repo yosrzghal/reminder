@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bluefoncé"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:padding="16dp">
+
+    <!-- Texte de bienvenue -->
+    <TextView
+        android:id="@+id/titreBienvenue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="36dp"
+        android:text="Bienvenue  !"
+        android:textColor="#FFFFFF"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <!-- Texte de description -->
+    <TextView
+        android:id="@+id/descriptionBienvenue"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:text="L'application vous rappellera de boire de l'eau tous les jours et gardera une trace de votre historique de consommation."
+        android:textColor="@color/blueclair"
+        android:textSize="16sp"
+        android:gravity="center" />
+
+    <!-- Image d'illustration -->
+    <ImageView
+        android:id="@+id/imageBienvenue"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_marginTop="48dp"
+        android:src="@drawable/water7" />
+
+    <!-- Texte d'encouragement -->
+    <TextView
+        android:id="@+id/texteEncouragement"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="108dp"
+        android:text="Commençons à calculer la quantité d'eau que vous devriez boire chaque jour"
+        android:textColor="#B0BEC5"
+        android:textSize="14sp"
+        android:gravity="center" />
+
+    <!-- Bouton Commencer -->
+    <Button
+        android:id="@+id/boutonCommencer"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:backgroundTint="#2196F3"
+        android:text="Commencer"
+        android:textColor="#FFFFFF"
+        android:textSize="16sp" />
+
+</LinearLayout>
